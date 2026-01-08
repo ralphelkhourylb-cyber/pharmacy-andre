@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Assistant • Pharmacy Andre</title>
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <script defer src="./assets/js/header.js"></script>
+  <script defer src="./assets/js/main.js"></script>
+</head>
+<body>
+  <div data-header></div>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">AI Assistant</h2>
+
+      <div class="chat card">
+        <div class="chat-log" id="chatLog" aria-live="polite"></div>
+
+        <form class="chat-form" id="chatForm">
+          <input class="input" id="chatInput" placeholder="Ask anything..." required />
+          <button class="btn btn-primary" type="submit">Send</button>
+        </form>
+
+        <p class="muted small">
+          This is a demo assistant (works offline). If you want real AI, you must connect an API (OpenAI) using a backend.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Pharmacy Andre</strong>
+        <div class="muted">Baouchrieh, Lebanon • Toufic Najib Fadel Street</div>
+      </div>
+      <div class="muted">© <span id="year"></span> Pharmacy Andre</div>
+    </div>
+  </footer>
+</body>
+</html>

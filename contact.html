@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact • Pharmacy Andre</title>
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <script defer src="./assets/js/header.js"></script>
+  <script defer src="./assets/js/main.js"></script>
+</head>
+<body>
+  <div data-header></div>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Let’s get in touch</h2>
+
+      <div class="card">
+        <form id="contactForm" class="form">
+          <div class="form-grid">
+            <label class="label">Full name
+              <input class="input" name="name" required />
+            </label>
+
+            <label class="label">Phone number
+              <input class="input" name="phone" required />
+            </label>
+
+            <label class="label">Email address
+              <input class="input" type="email" name="email" required />
+            </label>
+
+            <label class="label">Subject
+              <input class="input" name="subject" required />
+            </label>
+          </div>
+
+          <label class="label">Message
+            <textarea class="input textarea" name="message" required></textarea>
+          </label>
+
+          <button class="btn btn-primary" type="submit">Send</button>
+          <a class="btn btn-ghost" href="tel:+96101684862">Call Pharmacy</a>
+
+          <p class="muted small">
+            Note: This website sends your message by opening your email app (mailto:) addressed to phandre71@gmail.com.
+For automatic sending without the user’s email app, you need a backend (PHP/Node) or an email service.
+
+          </p>
+        </form>
+      </div>
+
+      <div class="card">
+        <h3>Pharmacy And Delivery Number</h3>
+        <p class="para">961 01 564 560</p>
+
+        <h3>Lebanese Emergency Contacts</h3>
+        <ul class="list">
+          <li>Lebanese Red Cross: <strong>140</strong></li>
+          <li>Fire Department: <strong>175</strong></li>
+          <li>Ministry of Public Health: <strong>1214</strong></li>
+        </ul>
+		<h3 style="margin-top:20px;">Follow Us</h3>
+
+<a
+  href="https://www.instagram.com/pharmacie__andre?igsh=NHA2M3lucjNuaHg1"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="instagram-link"
+  aria-label="Pharmacie Andre Instagram"
+>
+  <span class="insta-icon">📷</span>
+  <span>@pharmacie__andre</span>
+</a>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Pharmacy Andre</strong>
+        <div class="muted">Baouchrieh, Lebanon • Toufic Najib Fadel Street</div>
+      </div>
+      <div class="muted">© <span id="year"></span> Pharmacy Andre</div>
+    </div>
+  </footer>
+</body>
+</html>

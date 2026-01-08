@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pharmacy Andre</title>
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <script defer src="./assets/js/header.js"></script>
+  <script defer src="./assets/js/main.js"></script>
+</head>
+<body>
+  <div data-header></div>
+
+  <!-- HERO -->
+  <section class="hero" aria-label="Hero">
+    <div class="hero-bg" style="background-image:url('./assets/img/hero.jpg');"></div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-inner">
+      <h1 class="hero-title">Your health, our priority.</h1>
+      <p class="hero-sub">Care you can trust — products, advice, and fast service.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="./services.html">Explore Services</a>
+        <a class="btn btn-ghost" href="./contact.html">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT PREVIEW -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">About Andre Pharmacy</h2>
+
+      <p class="quote-bold">
+        <strong>A place that makes you feel better, even if you’re not sick in the first place!</strong>
+      </p>
+
+      <p class="para">
+        Pharmacy Andre has been proudly serving your health since 1997, with a vision that goes beyond simply dispensing medication.
+        Located in the heart of Baouchrieh, we are a community-focused pharmacy where care, trust, and expertise come first.
+        Our expert pharmacists are always at your service, offering personalized advice and attentive support to help you feel better
+        from the moment you walk in. With a carefully selected range of the latest health and wellness products, Pharmacy Andre is
+        committed to supporting your well-being at every stage of life—making health care more human, accessible, and reassuring every day.
+      </p>
+
+      <div class="center">
+        <a class="pill" href="./about.html">Read More</a>
+      </div>
+    </div>
+  </section>
+
+ <!-- SERVICES PREVIEW (MOVING STRIP ONLY) -->
+<section class="section section-soft">
+  <div class="container">
+    <h2 class="section-title">Andre Pharmacy Services</h2>
+
+    <div class="marquee" aria-label="Services moving strip">
+      <div class="marquee-track" data-marquee>
+        <div class="marquee-item">💧 Personal Care</div>
+        <div class="marquee-item">🍼 Baby Care</div>
+        <div class="marquee-item">🏋️ Sports Nutrition</div>
+        <div class="marquee-item">🌸 Accessories</div>
+        <div class="marquee-item">💉 Vaccines</div>
+        <div class="marquee-item">👁️ Eye & Ear</div>
+        <div class="marquee-item">💄 Cosmetics</div>
+        <div class="marquee-item">🍬 Candy</div>
+        <div class="marquee-item">🩺 Machineries</div>
+        <div class="marquee-item">✂️ Hair & Nail</div>
+        <div class="marquee-item">🍃 Nutrition</div>
+        <div class="marquee-item">🩹 First Aid</div>
+        <div class="marquee-item">💊 Drugs</div>
+      </div>
+    </div>
+
+    <div class="center" style="margin-top:18px;">
+      <a class="pill" href="./services.html">Services</a>
+    </div>
+  </div>
+</section>
+
+
+  <!-- BMI + INFO 2 COLUMNS -->
+  <section class="section">
+    <div class="container two-col">
+      <div class="card">
+        <h2 class="card-title">BMI Calculator</h2>
+
+        <div class="form-grid">
+          <label class="label">
+            Height (cm)
+            <input class="input" type="number" id="bmiHeight" placeholder="e.g. 182" min="50" max="250" />
+          </label>
+
+          <label class="label">
+            Weight (kg)
+            <input class="input" type="number" id="bmiWeight" placeholder="e.g. 64" min="10" max="350" />
+          </label>
+        </div>
+
+        <button class="btn btn-primary full" id="bmiBtn" type="button">Calculate BMI</button>
+
+        <div class="bmi-result" id="bmiResult" aria-live="polite"></div>
+
+        <p class="para small">
+          Body mass index (BMI) is used to determine whether you’re in a healthy weight range.
+          It’s useful to consider BMI alongside waist measurement.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2 class="card-title">What does BMI mean?</h2>
+        <p class="para">
+          BMI is a useful measurement for most people over 18 years old. It is only an estimate and it doesn’t take into account age,
+          ethnicity, gender and body composition.
+          <br><br>
+          We recommend you also check your waist measurement and other risk factors.
+          <br><br>
+          This calculator shouldn’t be used for pregnant women or children.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Pharmacy Andre</strong>
+        <div class="muted">Baouchrieh, Lebanon • Toufic Najib Fadel Street</div>
+      </div>
+      <div class="muted">© <span id="year"></span> Pharmacy Andre</div>
+    </div>
+  </footer>
+</body>
+</html>
